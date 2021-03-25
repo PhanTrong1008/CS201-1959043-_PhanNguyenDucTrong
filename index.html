@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Page Title</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- This is the CS201 Web Dev 1 final. Your task is to make a responsive e-commerce site using
+  BS4 as your CSS front end framework and load products from the FakeStore API (linked below) -->
+    <!-- FakeStoreAPI end point: https://fakestoreapi.com/products -->
+    <!-- Header Section -->
+    <nav class="navigation">
+      <!-- <a href="index.html" class="logo">
+      <img src="/images/logo.jpg" alt="" width="60px" />
+    </a> -->
+      <i class="fas fa-clock"></i>
+
+      <!-- Checkbox -->
+      <input type="checkbox" class="menu-btn" id="menu-btn" />
+      <label for="menu-btn" class="menu-icon">
+        <span class="nav-icon"></span>
+      </label>
+      <!-- Menu -->
+      <ul class="menu">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="#about-team">About Us</a></li>
+        <li><a href="/products.html">Products</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <!-- Account Button -->
+
+      <!-- hamburger -->
+      <nav class="nav-2">
+        <!-- Menu -->
+        <ul class="menu-2">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="#about-team">About Us</a></li>
+          <li><a href="/products.html">Products</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </nav>
+    <!-- End Header Section -->
+
+    <!-- Jumbotron -->
+    <div class="jumbotron text-center">
+      <div class="info">
+        <h1 class="display-4 mb-4">NEW ARRIVALS</h1>
+        <p class="lead">
+          <a class="btn btn-shop btn-lg" href="#" role="button">Shop now!</a>
+        </p>
+      </div>
+    </div>
+
+    <!-- Catogory Section -->
+    <div class="catogory mt-3">
+      <div class="container">
+        <div class="rowCatogories">
+          <div class="kindCatogory">
+            <div class="catogory-img">
+              <img
+                src="//cdn.shopify.com/s/files/1/0074/5432/6835/files/xeric-soloscope-ii-auto-lifestyle-bluetan-800px_4b189e76-199f-47cb-a0c0-7b5c49d4281c_300x.jpg?v=1614383512"
+              />
+            </div>
+
+            <div class="catogory-info">
+              <h3>Men's watches</h3>
+              <h4>25% off</h4>
+            </div>
+          </div>
+
+          <div class="kindCatogory">
+            <div class="catogory-img">
+              <img
+                src="//cdn.shopify.com/s/files/1/0074/5432/6835/files/xeric-soloscope-ii-auto-lifestyle-bluetan-800px_4b189e76-199f-47cb-a0c0-7b5c49d4281c_300x.jpg?v=1614383512"
+              />
+            </div>
+
+            <div class="catogory-info">
+              <h3>Men's watches</h3>
+              <h4>25% off</h4>
+            </div>
+          </div>
+
+          <div class="kindCatogory">
+            <div class="catogory-img">
+              <img
+                src="//cdn.shopify.com/s/files/1/0074/5432/6835/files/xeric-soloscope-ii-auto-lifestyle-bluetan-800px_4b189e76-199f-47cb-a0c0-7b5c49d4281c_300x.jpg?v=1614383512"
+              />
+            </div>
+
+            <div class="catogory-info">
+              <h3>Men's watches</h3>
+              <h4>25% off</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End  Catogory Section-->
+
+    <h2 class="text-center mt-5 mb-5" style="color: #5facd4">NEW PRODUCTS</h2>
+
+    <!-- Products Section -->
+    <div class="products mt-5">
+      <div class="container">
+        <div class="rowProducts"></div>
+      </div>
+    </div>
+    <!-- End Products Section -->
+
+    <!-- Services Section-->
+    <div class="services mt-5 mb-5">
+      <div class="rowService">
+        <div class="service">
+          <i class="fas fa-truck"></i>
+
+          <h6>Fast and free delivery</h6>
+
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+            debitis corporis placeat sunt, in sapiente fugit modi eaque animi.
+          </p>
+        </div>
+
+        <div class="service">
+          <i class="fas fa-exchange-alt"></i>
+
+          <h6>Fast and free delivery</h6>
+
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+            debitis corporis placeat sunt, in sapiente fugit modi eaque animi.
+          </p>
+        </div>
+
+        <div class="service">
+          <i class="far fa-money-bill-alt"></i>
+
+          <h6>Fast and free delivery</h6>
+
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+            debitis corporis placeat sunt, in sapiente fugit modi eaque animi.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- End Services Section -->
+
+    <h2 class="text-center mt-5 mb-4" style="color: #5facd4">MANUFACTURERS</h2>
+
+    <!-- Manufacturers Section -->
+    <div class="manufacturer mb-5">
+      <div class="container">
+        <div class="rowManu">
+          <div class="manu">
+            <div class="manu-img">
+              <img
+                src="https://thumuadonghohieu.com/wp-content/uploads/2019/03/Logo-Rolex.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div class="manu">
+            <div class="manu-img">
+              <img
+                src="https://thumuadonghohieu.com/wp-content/uploads/2019/03/Logo-Rolex.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div class="manu">
+            <div class="manu-img">
+              <img
+                src="https://thumuadonghohieu.com/wp-content/uploads/2019/03/Logo-Rolex.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div class="manu">
+            <div class="manu-img">
+              <img
+                src="https://thumuadonghohieu.com/wp-content/uploads/2019/03/Logo-Rolex.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End  Manufacturers Section-->
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="container">
+        <div class="sec aboutus">
+          <h2>About Us</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+            numquam fugit quam doloribus, ipsa autem nihil quas quod, aliquid
+            repudiandae unde est veniam laudantium sapiente fugiat tenetur quia
+            ullam officia.
+          </p>
+
+          <ul class="sci">
+            <li>
+              <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fa fa-youtube-play" aria-hidden="true"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="sec quickLinks">
+          <h2>Quick Links</h2>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Terms and Conditions</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="sec contact-footer">
+          <h2>Contact Info</h2>
+          <ul class="info">
+            <li>
+              <span
+                ><i
+                  class="fa fa-map-marker"
+                  aria-hidden="true"
+                  style="color: #5facd4"
+                ></i
+              ></span>
+              <span>227 Nguyen Van Cu Street, District 10, HCMC</span>
+            </li>
+
+            <li>
+              <span
+                ><i
+                  class="fa fa-phone"
+                  aria-hidden="true"
+                  style="color: #5facd4"
+                ></i
+              ></span>
+              <p><a href="#">0934126789</a></p>
+            </li>
+
+            <li>
+              <span
+                ><i
+                  class="fa fa-envelope"
+                  aria-hidden="true"
+                  style="color: #5facd4"
+                ></i
+              ></span>
+              <p><a href="#">1959043@itec.hcmus.edu.vn</a></p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <div class="copyrightText">
+      <p>Copyright © 2021 Trong Phan. All Rights Reserved.</p>
+    </div>
+    <!-- End Footer Section -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
+    <script src="staticcatalog.js" charset="utf-8"></script>
+  </body>
+</html>
